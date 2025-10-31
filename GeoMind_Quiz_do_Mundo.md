@@ -47,7 +47,7 @@ Idiomas e culinária - Pontos turísticos - Curiosidades gerais
 
 -   10 perguntas por partida
 -   4 alternativas por pergunta
--   15 segundos para responder
+-   60 segundos para responder
 
 **Pontuação:** - +100 pontos por acerto - +50 pontos se responder em
 menos de 5 segundos
