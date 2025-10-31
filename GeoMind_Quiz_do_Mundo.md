@@ -201,6 +201,59 @@ graph TD
 
 ------------------------------------------------------------------------
 
+## 🛠️ Plano de Execução do Projeto
+
+### Fase 1 – Descoberta e Alinhamento
+
+-   Consolidar requisitos de visão, público-alvo, objetivos pedagógicos e
+    ritmo das partidas para definir o escopo do MVP e os critérios de
+    sucesso.
+
+### Fase 2 – Experiência do Usuário e Identidade Visual
+
+-   Mapear fluxos de navegação, telas principais e componentes essenciais
+    (home, modos, ranking, configurações) antes da prototipação.
+-   Produzir wireframes responsivos no estilo minimalista proposto,
+    validando paleta, feedbacks e layout para mobile e desktop.
+
+### Fase 3 – Curadoria de Conteúdo e Gamificação
+
+-   Construir banco inicial de perguntas por continente com metadados de
+    dificuldade e curiosidades educacionais.
+-   Definir regras de pontuação, tempo e resultados, além de conquistas e
+    destaque no ranking que reforcem a retenção dos jogadores.
+
+### Fase 4 – Implementação do Front-end
+
+-   Configurar projeto React com Tailwind e Context API para suportar
+    estados globais de pontuação, idioma e tema.
+-   Integrar componentes de quiz, timers, feedback e ranking conforme os
+    fluxos definidos no design.
+
+### Fase 5 – Serviços de Back-end e Banco de Dados
+
+-   Montar API Express para autenticação, entrega de perguntas, registro
+    de partidas e ranking semanal, protegida com JWT.
+-   Modelar coleções MongoDB para usuários, questões, estatísticas e
+    conquistas, assegurando consultas eficientes para o ranking global.
+
+### Fase 6 – Integração e Funcionalidades em Tempo Real
+
+-   Sincronizar front-end com API via Axios, validar regras de pontuação e
+    ranking, e implementar push em tempo real (WebSocket) para partidas
+    multiplayer.
+-   Garantir atualizações agendadas do ranking e destaques visuais
+    conforme posições do jogador.
+
+### Fase 7 – Deploy, Monitoramento e Roadmap
+
+-   Automatizar deploys em Vercel (front-end) e Render (back-end),
+    configurando CDN de ativos e observabilidade básica.
+-   Estabelecer plano de evolução contínua para modos especiais,
+    localizações extras e elementos de gamificação futura.
+
+------------------------------------------------------------------------
+
 **Autor:** Design conceitual desenvolvido por ChatGPT (assistente IA)
 para Edle Silva\
 **Data:** 31/10/2025
